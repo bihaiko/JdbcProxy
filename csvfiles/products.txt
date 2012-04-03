@@ -1,0 +1,12 @@
+PRODID	DESCRIPTION
+100860	"Motherboard"
+100861	"Flat Monitor"
+100870	"Processor 5 GHZ"
+100871	"Printer"
+100890	"Digital Camera"
+101860	"Memory Card 1GB"
+101863	"Video Accelerator"
+102130	"Scanner"
+200376	"Network card"
+200380	"Flash card"
+300001	"LCD Monitor"

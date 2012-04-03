@@ -1,0 +1,10 @@
+ID	REGIONNAME
+100	"Europe"
+101	"North America"
+102	"South America"
+103	"Africa"
+104	"Asia"
+105	"Australia"
+106	"Grenlandia"
+107	"Arctica"
+108	"Antarctida"

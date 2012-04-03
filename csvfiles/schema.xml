@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+  <table name="prices.txt">
+    <column name="PRODID" type="Integer"/>
+    <column name="REGIONID" type="Int"/>
+    <column name="STDPRICE" type="Float"/>
+    <column name="MINPRICE" type="FLOAT"/>
+    <column name="STARTDATE" type="Date"/>
+    <column pos="6" type="DateTime"/>
+  </table>
+  <table name="products.txt">
+    <column name="PRODID" type="Integer"/>
+    <column name="DESCRIPTION" type="Varchar"/>
+  </table>
+  <table name="regions.txt">
+    <column name="ID" pos="1" type="Integer"/>
+    <column pos="2" type="String"/>
+  </table>
+</schema>
