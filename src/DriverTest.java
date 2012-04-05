@@ -12,11 +12,11 @@ public class DriverTest {
 
 	public static void main(String[] args) {
 		try {
-			Class.forName(ProxyDriver.class.getName());
-			Class.forName(CsvDriver2.class.getName());
-			
-			Connection conn = DriverManager.getConnection("jdbc:bihaiko:jstels.jdbc.csv.CsvDriver2@jdbc:jstels:csv:.\\csvfiles");
+//			Class.forName(CsvDriver2.class.getName());
 //			Connection conn = DriverManager.getConnection("jdbc:jstels:csv:.\\csvfiles");
+			
+			Class.forName(ProxyDriver.class.getName());
+			Connection conn = DriverManager.getConnection("jdbc:bihaiko:jstels.jdbc.csv.CsvDriver2@jdbc:jstels:csv:.\\csvfiles");
 			
 			Statement stmt = conn.createStatement();
 			ResultSet rs = stmt.executeQuery("SELECT * FROM prices");

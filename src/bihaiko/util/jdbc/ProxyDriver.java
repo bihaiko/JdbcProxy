@@ -21,7 +21,6 @@ public class ProxyDriver implements Driver {
 		try {
 			_loggerProxy = Logger.getLogger(ProxyDriver.class.getName());
 			DriverManager.registerDriver(new ProxyDriver());
-			System.out.println(ProxyDriver.class.getName());
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
